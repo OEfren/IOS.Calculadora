@@ -16,6 +16,7 @@
 		310C78412B026BD80001321E /* CalculadoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310C78402B026BD80001321E /* CalculadoraTests.swift */; };
 		310C784B2B026BD80001321E /* CalculadoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310C784A2B026BD80001321E /* CalculadoraUITests.swift */; };
 		310C784D2B026BD80001321E /* CalculadoraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310C784C2B026BD80001321E /* CalculadoraUITestsLaunchTests.swift */; };
+		31C18C232B02A5CA00E3C689 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C18C222B02A5CA00E3C689 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		310C78462B026BD80001321E /* CalculadoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculadoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		310C784A2B026BD80001321E /* CalculadoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraUITests.swift; sourceTree = "<group>"; };
 		310C784C2B026BD80001321E /* CalculadoraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31C18C222B02A5CA00E3C689 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				310C78322B026BD70001321E /* Assets.xcassets */,
 				310C78342B026BD70001321E /* LaunchScreen.storyboard */,
 				310C78372B026BD70001321E /* Info.plist */,
+				31C18C222B02A5CA00E3C689 /* MainView.swift */,
 			);
 			path = Calculadora;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				310C782E2B026BD40001321E /* ViewController.swift in Sources */,
+				31C18C232B02A5CA00E3C689 /* MainView.swift in Sources */,
 				310C782A2B026BD40001321E /* AppDelegate.swift in Sources */,
 				310C782C2B026BD40001321E /* SceneDelegate.swift in Sources */,
 			);
